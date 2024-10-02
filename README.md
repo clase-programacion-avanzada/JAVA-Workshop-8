@@ -113,6 +113,8 @@ Responda las preguntas 8 a 9 sobre el código anterior:
 
 ## Enunciado
 
+**Este taller toma como base el proyecto de la aplicación de música que se ha venido desarrollando en los talleres anteriores.**
+
 Se debe permitir a los clientes de la aplicación de música seguir a sus artistas favoritos y crear listas de reproducción con sus canciones favoritas. Para esto, el programa debe permitir realizar las siguientes operaciones:
 
 1. Seguir a un artista: Un cliente puede seguir a un artista. Si el usuario digita un id de artista que no existe, se debe lanzar una excepción personalizada `NotFoundException` cuyo mensaje sea: _"El artista con id ${id} no existe"_.</br></br>
